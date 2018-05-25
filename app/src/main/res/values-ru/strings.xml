@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Alehub Wallet</string>
+    <string name="email">e-mail</string>
+    <string name="email_cups">E-MAIL</string>
+    <string name="password_cups">ПАРОЛЬ</string>
+    <string name="login">Логин</string>
+    <string name="ale">ALE</string>
+    <string name="dont_have_accaunt">Нет аккаунта?</string>
+    <string name="create_one"><u>Создать</u></string>
+    <string name="full_name_cups">ПОЛНОЕ ИМЯ</string>
+    <string name="phone_number_cups">ТЕЛЕФОН</string>
+    <string name="password_retype_cups">ПОВТОРИТЕ ПАРОЛЬ</string>
+    <string name="create">Создать</string>
+    <string name="allredy_have_an_account">Уже есть аккаунт?</string>
+    <string name="log_in"><u>Войти</u></string>
+    <string name="email_incorrect">Email введен неверно!</string>
+    <string name="password_incorrect">Пароль введен не верно!</string>
+    <string name="fullname_incorrect">Введите правильное полное имя!</string>
+    <string name="phone_incorrect">Введите правильный телефон!</string>
+    <string name="back">Навзад</string>
+    <string name="pin_code_cups">2FA PIN CODE</string>
+    <string name="code_incorrect">Код неверен!</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="settings">Настройки</string>
+    <string name="general">основные</string>
+    <string name="language">язык</string>
+    <string name="security">безопасность</string>
+    <string name="two_factor_title">Двухфакторная авторизация</string>
+    <string name="two_factor_descr">You can add a second layer of protection with 2-Step Verification, which requires a single-use code sent to your phone or using third-party authentification app.</string>
+    <string name="protect_with">Защитить через</string>
+    <string name="backup_codes">Коды восстановления</string>
+    <string name="backup_codes_descr">10 single-use codes are active at this time, but you can generate more as needed.</string>
+    <string name="show_codes"><u>Показать коды</u></string>
+    <string name="log_out">Выйти</string>
+    <string name="backup_codes_descr_short">Make sure you have saved this codes somewhere.</string>
+    <string name="generate_new">Сгенерировать новые</string>
+    <string name="change_password">Изменить пароль</string>
+    <string name="change">Изменить</string>
+    <string name="old_password_cups">СТАРЫЙ ПАРОЛЬ</string>
+    <string name="new_password_cups">НОВЫЙ ПАРОЛЬ</string>
+    <string name="new_password_repeat_cups">ПОВТОРИТЕ ПАРОЛЬ</string>
+    <string name="wallet_summary">Обзор</string>
+    <string name="send">Отправить</string>
+    <string name="request">Запросить</string>
+    <string name="recent_activity_cups">ПОСЛЕДНЯЯ АКТИВНОСТЬ</string>
+    <string name="search_wallet">Поиск кошелька</string>
+    <string name="create_new_wallet">Создать кошелек</string>
+    <string name="drawer_open">Открыть</string>
+    <string name="drawer_close">Закрыть</string>
+    <string name="recived">получен</string>
+    <string name="from">От:</string>
+    <string name="sent">Отправлен</string>
+    <string name="sold">Продан</string>
+    <string name="bought">Куплен</string>
+    <string name="summary">Обзор</string>
+    <string name="walet_offers">Walet offers</string>
+    <string name="transactions">Операции</string>
+    <string name="wallet_settings">Настройки кошелька</string>
+    <string name="wallet_name_cups">НАЗВАНИЕ КОШЕЛЬКА</string>
+    <string name="mnemonic_phrase_cups">ФРАЗА</string>
+    <string name="redemption_key_cups">КЛЮЧ ВОССТАНОВЛЕНИЯ</string>
+    <string name="phase_to_decript_cups">ФРАЗА ДЛЯ РАСШИФИФРОВЫВАНИЯ СЕРТИФИКАТА</string>
+    <string name="recovery_phrase_about">На следующем экране вы увидите набор случайных слов X. Это ваша резервная копия кошелька. Он может быть введен в любую версию приложения ALE для резервного копирования или восстановления ваших кошельков и частного ключа.</string>
+    <string name="recovery_phrase_about_check">Убедитесь, что никто не смотрит на ваш экран, если вы не хотите, чтобы у них был доступ к вашим средствам.</string>
+    <string name="continue_text">Продолжить</string>
+    <string name="recovery_phrase">Фраза для восстановления</string>
+    <string name="recovery_phrase_write_text">Пожалуйста, убедитесь, что вы тщательно записали фразу восстановления в безопасном месте. Вам понадобится эта фраза позже для последующего использования и восстановления. Фраза чувствительна к регистру.</string>
+    <string name="recovery_phrase_verefy">Введите каждое слово в правильном порядке, чтобы подтвердить свою фразу восстановления</string>
+    <string name="recovery_phrase_ask_1">Я понимаю, что мои деньги хранятся только на этом устройстве, а не на серверах компании</string>
+    <string name="recovery_phrase_ask_2">Я понимаю, что если это приложение перенесено на другое устройство или удалено, мои деньги могут быть восстановлены только с резервной фразой, записанной в безопасном месте</string>
+    <string name="amount_caps">СУММА</string>
+    <string name="address_caps">АДРЕС</string>
+    <string name="total_caps">ИТОГО</string>
+    <string name="next">Далее</string>
+    <string name="send_limit">У вас нет столько средств</string>
+    <string name="send_zero">Нельзя отправлять ноль</string>
+    <string name="send_no_address">Не указан адрес получателя</string>
+    <string name="with">с</string>
+    <string name="of_fees">of fees</string>
+    <string name="max">макс.</string>
+    <string name="send_to">Отправлен</string>
+    <string name="receiver_address_caps">Адрес получателя</string>
+    <string name="share_qrcode">Поделитесь QR-кодом, чтобы получить платеж</string>
+    <string name="copy">Копировать</string>
+    <string name="share">Поделиться</string>
+    <string name="qrcode_shared_success">Код успешно расшарен</string>
+    <string name="qrcode_copyd_success">Код успешно скопирован</string>
+    <string name="search_transactions">Поиск операций</string>
+    <string name="scanning_blocks">Scanning blocks for transactions…</string>
+    <string name="today">сегодня</string>
+    <string name="yesterday">вчера</string>
+    <string name="delete">Удалить</string>
+    <string name="save">Сохранить</string>
+    <string name="name_zero">Укажите название кошелька</string>
+    <string name="delete_wallet">Удалить кошелек</string>
+    <string name="delete_wallet_ask">Вы действительно хотите удалить?</string>
+    <string name="delete_wallet_ask_1">Перед продолжением убедитесь, что у вас есть доступ к резервной копии. В противном случае вы потеряете все свои средства, связанные с этим кошельком.</string>
+    <string name="cancel">Отмена</string>
+    <string name="connect">Подключение к серверу</string>
+    <string name="add_wallet">Добавить кошелек</string>
+    <string name="import_wallet">Импортировать</string>
+    <string name="redemption_wallet">Восстановить</string>
+    <string name="select_action">Выбирите действвие</string>
+    <string name="import_wallet_action">Импортирование кошелька</string>
+    <string name="please_wait">Пожалуйста подождите</string>
+    <string name="can_not_create_wallet">Не удалось создать кошелек</string>
+    <string name="can_not_import_wallet">Не удалось импортировать кошелек</string>
+    <string name="send_error">Не удалось перевести средства</string>
+    <string name="recived_from">Получен от</string>
+    <string name="qrcode_read">Сканировать qr-код</string>
+    <string name="wallet">Кошелек</string>
+    <string name="qr_scanner">QR-код сканер</string>
+    <string name="app_settigs">Настройки приложения</string>
+    <string name="close_app">Закрыть приложение?</string>
+    <string name="close">Закрыть</string>
+    <string name="yes">Да</string>
+    <string name="close_app_ask">Вы действительно хотите закрыть приложение?</string>
+    <string name="no">Нет</string>
+    <string name="notifications">УВЕДОМЛЕНИЯ</string>
+    <string name="transaction">ОПЕРАЦИЯ</string>
+    <string name="send_done">Средства успешно отправлены</string>
+
+    <string name="wallet_title">Кошелек</string>
+    <string name="send_title">Отправка</string>
+    <string name="recived_title">Получение</string>
+    <string name="notifications_title">Уведомления</string>
+    <string name="you_not_have_notifications">У вас нет уведомлений</string>
+    <string name="not_found_transactions">Транзакции не найдены</string>
+
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Русский</item>
+    </string-array>
+
+    <string-array name="two_factor_apps">
+        <item>SMS</item>
+        <item>Звонок</item>
+    </string-array>
+
+    <string-array name="transactions_sort">
+        <item>Все</item>
+        <item>Входящие</item>
+        <item>Исходящие</item>
+    </string-array>
+</resources>

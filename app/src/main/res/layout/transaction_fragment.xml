@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <io.alehub.alehubwallet.view.ToolbarFont
+        android:id="@+id/toolbar"
+        style="@style/ToolBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:navigationIcon="@drawable/ic_back_ic"
+        app:title="@string/transaction"></io.alehub.alehubwallet.view.ToolbarFont>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <io.alehub.alehubwallet.view.TextViewFont
+                android:id="@+id/tv_transaction_element_type"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/bt_yellow_normal"
+                android:gravity="center"
+                android:text="@string/recived"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                app:fontName="museo_700"
+                app:textAllCaps="true" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <io.alehub.alehubwallet.view.TextViewFont
+                    android:id="@+id/tv_transaction_element_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:text="@string/from"
+                    android:textColor="@color/text_dark"
+                    android:textSize="16sp"
+                    app:fontName="museo_500" />
+
+                <io.alehub.alehubwallet.view.TextViewFont
+                    android:id="@+id/tv_transaction_element_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Nov 1 @ 04:07"
+                    android:textColor="@color/text_dark"
+                    android:textSize="16sp"
+                    app:fontName="museo_500" />
+            </LinearLayout>
+
+            <io.alehub.alehubwallet.view.TextViewFont
+                android:id="@+id/tv_transaction_element_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="0"
+                android:background="@drawable/bt_yellow_normal"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="4dp"
+                android:text="0,000 ALC"
+                android:textColor="@color/text_dark"
+                android:textSize="14sp"
+                app:fontName="museo_700"
+                app:textAllCaps="true" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

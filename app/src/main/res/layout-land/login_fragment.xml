@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+
+    android:orientation="vertical">
+
+    <io.alehub.alehubwallet.view.ToolbarFont
+        android:id="@+id/toolbar"
+        style="@style/ToolBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        app:title="@string/ale"></io.alehub.alehubwallet.view.ToolbarFont>
+
+    <ScrollView
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:background="@drawable/form_bg"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_vertical_margin_big"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin_big">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:hint="@string/email_cups"
+                    android:textColorHint="@color/text_light">
+
+                    <io.alehub.alehubwallet.view.EditTextFont
+                        android:id="@+id/ed_login_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/text_dark"
+                        android:textSize="14sp"
+                        app:backgroundTint="@color/grey_light"
+                        app:editTextFontName="museo_500" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/password_cups"
+                    android:textColorHint="@color/text_light">
+
+                    <io.alehub.alehubwallet.view.EditTextFont
+                        android:id="@+id/ed_login_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:textColor="@color/text_dark"
+                        android:textSize="14sp"
+                        app:backgroundTint="@color/grey_light"
+                        app:editTextFontName="museo_500" />
+                </android.support.design.widget.TextInputLayout>
+
+                <io.alehub.alehubwallet.view.ButtonFont
+                    android:id="@+id/bt_login_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/bt_dark"
+                    android:text="@string/login"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_white"
+                    android:textSize="16sp"
+                    app:buttonFontName="museo_500" />
+
+                <io.alehub.alehubwallet.view.TextViewFont
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_vertical_margin_big"
+                    android:gravity="center"
+                    android:text="@string/dont_have_accaunt"
+                    android:textColor="@color/text_dark"
+                    android:textSize="14sp"
+                    app:fontName="museo_500" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <io.alehub.alehubwallet.view.TextViewFont
+                        android:id="@+id/tv_login_create_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/create_one"
+                        android:textColor="@color/text_dark"
+                        android:textStyle="bold"
+                        app:fontName="museo_700" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <io.alehub.alehubwallet.view.NotificationLayout
+        android:id="@+id/notification"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:notificationBg="@color/red"
+        app:notificationText="Test"
+        app:notificationTextColor="@color/text_dark"></io.alehub.alehubwallet.view.NotificationLayout>
+
+</RelativeLayout>

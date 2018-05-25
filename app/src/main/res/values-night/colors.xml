@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d1717</color>
+    <color name="colorPrimaryDark">#0d1717</color>
+    <color name="colorAccent">#ffd24f</color>
+
+
+    <color name="bg">#111111</color>
+    <color name="bg_create_wallet">#26f7f7f7</color>
+    <color name="bg_create_wallet_select">#55f7f7f7</color>
+    <color name="second_bg">#111111</color>
+    <color name="drawer_bg">#474b4b</color>
+    <color name="list_accent_bg">#ececec</color>
+    <color name="list_normal_bg">#222222</color>
+
+
+    <color name="text_dark">#fcfcfc</color>
+    <color name="text_dark_50">#8834343e</color>
+    <color name="text_dark_70">#aa34343e</color>
+    <color name="text_light">#8834343e</color>
+    <color name="text_white">#282828</color>
+    <color name="text_white_70">#aafcfcfc</color>
+    <color name="text_white_50">#88fcfcfc</color>
+    <color name="text_sub_title">#8834343e</color>
+    <color name="text_red">#b10101</color>
+
+    <color name="grey_light">#dedede</color>
+    <color name="grey">#474b4b</color>
+    <color name="red">#aad93f1f</color>
+    <color name="green">#aa38b76b</color>
+
+    <color name="bt_grey_normal">#eceded</color>
+    <color name="bt_grey_pressed">#d8dada</color>
+
+    <color name="bt_tr_pressed">#88d8dada</color>
+
+    <color name="divider">#d1d1d1</color>
+
+    <color name="bt_yellow_normal">#ffd24f</color>
+    <color name="bt_yellow_pressed">#ffc926</color>
+    <color name="bt_yellow_disable">#88ffc926</color>
+
+    <color name="bt_dark_normal">#0d1717</color>
+    <color name="bt_dark_pressed">#000000</color>
+
+</resources>

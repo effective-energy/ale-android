@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Alehub Wallet</string>
+    <string name="email">e-mail</string>
+    <string name="email_cups">E-MAIL</string>
+    <string name="password_cups">PASSWORD</string>
+    <string name="login">Login</string>
+    <string name="ale">ALE</string>
+    <string name="dont_have_accaunt">Don`t have an account?</string>
+    <string name="create_one"><u>Create one</u></string>
+    <string name="full_name_cups">FULL NAME</string>
+    <string name="phone_number_cups">PHONE NUMBER</string>
+    <string name="password_retype_cups">REPEAT PASSWORD</string>
+    <string name="create">Create</string>
+    <string name="allredy_have_an_account">Already have an account?</string>
+    <string name="log_in"><u>Log in</u></string>
+    <string name="email_incorrect">Email is incorrect!</string>
+    <string name="password_incorrect">Password is incorrect!</string>
+    <string name="fullname_incorrect">Full name is incorrect!</string>
+    <string name="phone_incorrect">Phone number is incorrect!</string>
+    <string name="back">Back</string>
+    <string name="pin_code_cups">2FA PIN CODE</string>
+    <string name="code_incorrect">Code is incorrect!</string>
+    <string name="confirm">Confirm</string>
+    <string name="settings">Settings</string>
+    <string name="general">general</string>
+    <string name="language">language</string>
+    <string name="security">security</string>
+    <string name="two_factor_title">Two-factor authentification</string>
+    <string name="two_factor_descr">You can add a second layer of protection with 2-Step Verification, which requires a single-use code sent to your phone or using third-party authentification app.</string>
+    <string name="protect_with">Protect with</string>
+    <string name="backup_codes">Backup codes</string>
+    <string name="backup_codes_descr">10 single-use codes are active at this time, but you can generate more as needed.</string>
+    <string name="show_codes"><u>Show codes</u></string>
+    <string name="log_out">Log out</string>
+    <string name="backup_codes_descr_short">Make sure you have saved this codes somewhere.</string>
+    <string name="generate_new">Generate new</string>
+    <string name="change_password">Change password</string>
+    <string name="change">Change</string>
+    <string name="old_password_cups">OLD PASSWORD</string>
+    <string name="new_password_cups">NEW PASSWORD</string>
+    <string name="new_password_repeat_cups">REPEAT PASSWORD</string>
+    <string name="wallet_summary">Summary</string>
+    <string name="send">Send</string>
+    <string name="request">Request</string>
+    <string name="recent_activity_cups">RECENT ACTIVITY</string>
+    <string name="search_wallet">Search wallet</string>
+    <string name="create_new_wallet">Create new wallet</string>
+    <string name="drawer_open">Открыть</string>
+    <string name="drawer_close">Закрыть</string>
+    <string name="recived">recived</string>
+    <string name="from">From:</string>
+    <string name="sent">Sent</string>
+    <string name="sold">Sold</string>
+    <string name="bought">Bought</string>
+    <string name="summary">Summary</string>
+    <string name="walet_offers">Walet offers</string>
+    <string name="transactions">Transactions</string>
+    <string name="wallet_settings">Wallet settings</string>
+    <string name="wallet_name_cups">WALLET NAME</string>
+    <string name="mnemonic_phrase_cups">MNEMONIC PHRASE</string>
+    <string name="redemption_key_cups">REDEMPTION KEY</string>
+    <string name="phase_to_decript_cups">PHASE TO DECRYPT CERTIFICATE</string>
+    <string name="recovery_phrase_about">On the following screen, you will see a set of X random words. This is your wallet backup phrase. It can be entered in any version of ALE application in order to back up or restore your wallet’s funds and private key.</string>
+    <string name="recovery_phrase_about_check">Make sure nobody looks into your screen unless you want them to have access to your funds.</string>
+    <string name="continue_text">Continue</string>
+    <string name="recovery_phrase">Recovery phrase</string>
+    <string name="recovery_phrase_write_text">Please, make sure you have carefully writen down your recovery phrase somewhere safe. You will need this phrase later for next use and recover. Phrase is case sensitive.</string>
+    <string name="recovery_phrase_verefy">Type each word in the correct order to verify your recovery phrase</string>
+    <string name="recovery_phrase_ask_1">I understand that my money are held securely on this device only, not on the company servers</string>
+    <string name="recovery_phrase_ask_2">I understand that if this application is moved to another device or deleted, my money can be only recovered with the backup phrase which were written down in a secure place</string>
+    <string name="amount_caps">AMOUNT</string>
+    <string name="address_caps">ADDRESS</string>
+    <string name="total_caps">TOTAL</string>
+    <string name="next">Next</string>
+    <string name="send_limit">У вас нет столько средств</string>
+    <string name="send_zero">Нельзя отправлять ноль</string>
+    <string name="send_no_address">Не указан адрес получателя</string>
+    <string name="with">with</string>
+    <string name="of_fees">of fees</string>
+    <string name="max">max</string>
+    <string name="send_to">Sended to</string>
+    <string name="receiver_address_caps">RECEIVER ADDRESS</string>
+    <string name="share_qrcode">Share this QR code to receive payments</string>
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="qrcode_shared_success">Код успешно расшарен</string>
+    <string name="qrcode_copyd_success">Код успешно скопирован</string>
+    <string name="search_transactions">Search transactions</string>
+    <string name="scanning_blocks">Scanning blocks for transactions…</string>
+    <string name="today">today</string>
+    <string name="yesterday">yesterday</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="name_zero">Write wallet name</string>
+    <string name="delete_wallet">Delete wallet</string>
+    <string name="delete_wallet_ask">Do you really want to delete Contract tokens wallet?</string>
+    <string name="delete_wallet_ask_1">Make sure you have access to backup before continue. Otherwise you will lose all your funds connected to this wallet.</string>
+    <string name="cancel">Cancel</string>
+    <string name="connect">Connecting to server</string>
+    <string name="add_wallet">Add wallet</string>
+    <string name="import_wallet">Import</string>
+    <string name="redemption_wallet">Redemption</string>
+    <string name="select_action">Select action</string>
+    <string name="import_wallet_action">Import wallet</string>
+    <string name="please_wait">Please wait</string>
+    <string name="can_not_create_wallet">Wallet not created</string>
+    <string name="can_not_import_wallet">Wallet not imported</string>
+    <string name="send_error">Не удалось перевести средства</string>
+    <string name="recived_from">Recived from</string>
+    <string name="qrcode_read">Read qrcode</string>
+    <string name="wallet">Wallet</string>
+    <string name="qr_scanner">QR-code scanner</string>
+    <string name="app_settigs">App settings</string>
+    <string name="close_app">Close app?</string>
+    <string name="close">Close app?</string>
+    <string name="yes">Yes</string>
+    <string name="close_app_ask">Are you sure to close app?</string>
+    <string name="no">No</string>
+    <string name="notifications">NOTIFICATIONS</string>
+    <string name="transaction">TRANSACTION</string>
+    <string name="send_done">You success send money</string>
+    <string name="wallet_title">Wallet</string>
+    <string name="send_title">Send</string>
+    <string name="recived_title">Recive</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="you_not_have_notifications">You do not have any notifications</string>
+    <string name="not_found_transactions">No transactions found</string>
+
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Русский</item>
+    </string-array>
+
+    <string-array name="two_factor_apps">
+        <item>SMS</item>
+        <item>Call</item>
+    </string-array>
+
+    <string-array name="transactions_sort">
+        <item>All</item>
+        <item>Income</item>
+        <item>Expend</item>
+    </string-array>
+</resources>

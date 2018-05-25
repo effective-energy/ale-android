@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        app:showAsAction="never"
+        android:id="@+id/menu_wallet_transactions"
+        android:title="@string/transactions" />
+    <item
+        app:showAsAction="never"
+        android:id="@+id/menu_wallet_settings"
+        android:title="@string/wallet_settings" />
+</menu>
