@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="activity_vertical_margin_big">32dp</dimen>
+
+    <dimen name="change_password_height">370dp</dimen>
+    <dimen name="recent_activity_height">64dp</dimen>
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/img_search"
+                android:layout_width="16sp"
+                android:layout_height="16sp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                app:srcCompat="@drawable/ic_search_dark" />
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/DrawerSearchHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_toRightOf="@id/img_search"
+                android:hint="@string/search_transactions"
+                android:textColorHint="@color/text_dark_70">
+
+                <io.alehub.alehubwallet.view.EditTextFont
+                    android:id="@+id/ed_wallet_transactions_fragment_search"
+                    style="@style/DrawerSearchEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textColor="@color/text_dark_70"
+                    android:textSize="16sp"
+                    app:backgroundTint="@color/text_dark_70"
+                    app:editTextFontName="museo_300" />
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/sp_wallet_transactions_fragment_type"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/spinner"
+            android:entries="@array/transactions_sort">
+
+        </android.support.v7.widget.AppCompatSpinner>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/ll_wallet_transactions_fragment_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"></LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/ll_wallet_transactions_fragment_load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true" />
+
+            <io.alehub.alehubwallet.view.TextViewFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:text="@string/scanning_blocks"
+                android:textColor="@color/text_dark"
+                app:fontName="museo_500" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/ll_transactions_no"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+            <io.alehub.alehubwallet.view.TextViewFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontName="museo_500"
+                android:textSize="16sp"
+                android:textColor="@color/text_dark"
+                android:text="@string/not_found_transactions"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

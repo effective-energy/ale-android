@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <ImageButton
+        android:id="@+id/bt_wallet_send_close"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bt_tr"
+        android:padding="24dp"
+        app:srcCompat="@drawable/ic_close_cross" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+
+            <io.alehub.alehubwallet.view.TextViewFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/send"
+                android:textColor="@color/text_dark"
+                app:fontName="museo_700"
+                app:textAllCaps="true"></io.alehub.alehubwallet.view.TextViewFont>
+
+        </RelativeLayout>
+
+
+        <io.alehub.alehubwallet.view.ButtonFont
+            android:id="@+id/bt_wallet_send_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@drawable/bt_yellow"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="@string/next"
+            android:textAllCaps="false"
+            android:textColor="@color/text_dark" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bt_change_password_change"
+            android:layout_below="@id/r1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_wallet_send_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:hint="@string/amount_caps"
+                android:textColorHint="@color/text_light">
+
+                <io.alehub.alehubwallet.view.EditTextFont
+                    android:id="@+id/ed_wallet_send_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:text="0.0 ALC"
+                    android:textColor="@color/text_dark"
+                    android:textSize="16sp"
+                    app:backgroundTint="@color/grey_light"
+                    app:editTextFontName="museo_500" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:hint="@string/address_caps"
+                android:textColorHint="@color/text_light">
+
+                <io.alehub.alehubwallet.view.EditTextFont
+                    android:id="@+id/ed_wallet_send_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:text=""
+                    android:textColor="@color/text_dark"
+                    android:textSize="16sp"
+                    app:backgroundTint="@color/grey_light"
+                    app:editTextFontName="museo_500" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:hint="@string/total_caps"
+                android:textColorHint="@color/text_light">
+
+                <io.alehub.alehubwallet.view.EditTextFont
+                    android:id="@+id/ed_wallet_send_total"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:inputType="number"
+                    android:text="0.0 ALC"
+                    android:textColor="@color/text_dark"
+                    android:textSize="16sp"
+                    app:backgroundTint="@color/grey_light"
+                    app:editTextFontName="museo_500" />
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <io.alehub.alehubwallet.view.NotificationLayout
+            android:id="@+id/nl_wallet_send_notify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+        </io.alehub.alehubwallet.view.NotificationLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

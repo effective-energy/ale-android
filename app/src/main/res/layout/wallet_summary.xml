@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <io.alehub.alehubwallet.view.ButtonFont
+            android:id="@+id/bt_wallet_fragment_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/bt_yellow"
+            android:drawablePadding="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/send"
+            android:textAllCaps="false"
+            android:textColor="@color/text_dark"
+            android:textSize="16sp"
+            app:buttonFontName="museo_500"
+            app:buttonLeftDrawable="@drawable/ic_send" />
+
+        <io.alehub.alehubwallet.view.ButtonFont
+            android:id="@+id/bt_wallet_fragment_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/bt_grey"
+            android:drawablePadding="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/request"
+            android:textAllCaps="false"
+            android:textColor="@color/text_dark"
+            android:textSize="16sp"
+            app:buttonFontName="museo_500"
+            app:buttonLeftDrawable="@drawable/ic_receive" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <io.alehub.alehubwallet.view.ToolbarFont
+                android:id="@+id/tb_wallet_fragment_recent_activity"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                app:title="@string/recent_activity_cups"
+                app:titleTextAppearance="@style/SubtitleFontStyle"
+                app:titleTextColor="@color/text_dark_50"
+                app:toolbarFont="museo_700"></io.alehub.alehubwallet.view.ToolbarFont>
+
+            <LinearLayout
+                android:id="@+id/ll_wallet_fragment_recent_activity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

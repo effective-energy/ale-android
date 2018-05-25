@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextViewFont">
+        <attr name="fontName" format="integer">
+            <enum name="fairview" value="1" />
+            <enum name="museo_300" value="2" />
+            <enum name="museo_500" value="3" />
+            <enum name="museo_700" value="4" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ButtonFont">
+        <attr name="buttonFontName" format="integer">
+            <enum name="fairview" value="1" />
+            <enum name="museo_300" value="2" />
+            <enum name="museo_500" value="3" />
+            <enum name="museo_700" value="4" />
+        </attr>
+        <attr name="buttonLeftDrawable" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="EditTextFont">
+        <attr name="editTextFontName" format="integer">
+            <enum name="fairview" value="1" />
+            <enum name="museo_300" value="2" />
+            <enum name="museo_500" value="3" />
+            <enum name="museo_700" value="4" />
+
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ToolbarFont">
+        <attr name="toolbarBackIcon" format="integer" />
+        <attr name="toolbarFont" format="integer">
+            <enum name="fairview" value="1" />
+            <enum name="museo_300" value="2" />
+            <enum name="museo_500" value="3" />
+            <enum name="museo_700" value="4" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ImageButtonVector">
+        <attr name="imageDrawable" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="NotificationLayout">
+        <attr name="notificationBg" format="integer" />
+        <attr name="notificationText" format="string" />
+        <attr name="notificationTextColor" format="integer" />
+    </declare-styleable>
+
+</resources>

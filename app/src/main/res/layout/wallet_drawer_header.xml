@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/drawer_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_wallet_drawer_header_wallets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_wallet_drawer_header_add_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/bt_create_wallet"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <io.alehub.alehubwallet.view.TextViewFont
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/create_new_wallet"
+            android:textColor="@color/text_white"
+            android:textSize="16sp"
+            app:fontName="museo_500" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/ic_add" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_wallet_drawer_header_walllet_transactions"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/bt_create_wallet"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <io.alehub.alehubwallet.view.TextViewFont
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/transactions"
+            android:textColor="@color/text_white"
+            android:textSize="16sp"
+            app:fontName="museo_500" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/ic_wallet" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_wallet_drawer_header_wallets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_wallet_drawer_header_walllet_settings"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/bt_create_wallet"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <io.alehub.alehubwallet.view.TextViewFont
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/wallet_settings"
+            android:textColor="@color/text_white"
+            android:textSize="16sp"
+            app:fontName="museo_500" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/ic_settings" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_wallet_drawer_header_wallets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_wallet_drawer_header_app_settings"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/bt_create_wallet"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <io.alehub.alehubwallet.view.TextViewFont
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/app_settigs"
+            android:textColor="@color/text_white"
+            android:textSize="16sp"
+            app:fontName="museo_500" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/ic_settings" />
+    </LinearLayout>
+</LinearLayout>

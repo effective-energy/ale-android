@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="TitleFontStyle" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <io.alehub.alehubwallet.view.ToolbarFont
+        android:id="@+id/toolbar"
+        style="@style/ToolBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:navigationIcon="@drawable/ic_menu_white_24dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <io.alehub.alehubwallet.view.TextViewFont
+                android:layout_marginRight="8dp"
+                android:id="@+id/tv_wallet_fragment_title_count"
+                android:textSize="32sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="right"
+                android:text="0,0 ALC"
+                android:textColor="@color/text_white"
+                app:fontName="fairview" />
+
+            <Spinner
+                android:id="@+id/sp_wallet_fragment_select_wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:spinnerMode="dropdown"></Spinner>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_toRightOf="@id/sp_wallet_fragment_select_wallet"
+                android:src="@drawable/ic_keyboard_arrow_down_white_24dp" />
+
+            <io.alehub.alehubwallet.view.TextViewFont
+                android:id="@+id/tv_wallet_fragment_title"
+                style="@style/TitleFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:gravity="right"
+                android:text="@string/wallet_summary"
+                android:textColor="@color/text_white"
+                android:visibility="invisible"
+                app:fontName="fairview" />
+        </RelativeLayout>
+    </io.alehub.alehubwallet.view.ToolbarFont>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg">
+
+        <!-- This LinearLayout represents the contents of the screen  -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/wallet_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- The ActionBar displayed at the top -->
+
+
+                <!-- The main content view where fragments are loaded -->
+
+            </LinearLayout>
+
+            <io.alehub.alehubwallet.view.NotificationLayout
+                android:id="@+id/nl_wallet_notify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+            </io.alehub.alehubwallet.view.NotificationLayout>
+        </RelativeLayout>
+
+        <!-- The navigation drawer that comes from the left --><!-- Note that `android:layout_gravity` needs to be set to 'start' -->
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nvView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/drawer_bg"
+            app:headerLayout="@layout/wallet_drawer_header" />
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>
